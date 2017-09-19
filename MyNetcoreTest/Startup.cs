@@ -14,6 +14,7 @@ namespace MyNetcoreTest
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            //fdsafsadfsadfsdaafs
         }
 
         public IConfiguration Configuration { get; }
@@ -32,6 +33,7 @@ namespace MyNetcoreTest
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
             }
+
             else
             {
                 app.UseExceptionHandler("/Home/Error");
